@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./maths.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    background: rgb(53, 50, 50);
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container h1
+{
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(248, 211, 4);
+}
+#input
+{
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+}
+.buttons
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.buttons button
+{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.74);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px yellow;
+}
+.buttons button:active
+{
+    background-color: blue;
+}
